@@ -4,7 +4,10 @@
 module.exports = {
   siteMetadata: {
     title: `bijan-john`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.bijanjohn.com`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
